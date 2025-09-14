@@ -1,0 +1,256 @@
+@media screen and (max-width:1199px) {
+    #sm-banner .banner-box {
+        height: 100vh;
+        background-position: 73% 1368px;
+        margin-bottom: 30px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (max-width:1023px) {
+    .about-box {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-detail {
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #products .pro {
+        width: 46%;
+    }
+
+    #navbar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 300px;
+        background: #fff;
+        height: 100vh;
+        right: -300px;
+        transition: 0.5s;
+        padding-top: 50px;
+    }
+
+    #navbar li {
+        line-height: 40px;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #shopping-bar {
+        display: none;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 600px;
+        background-position: 97% 1321px;
+    }
+
+    #banner3 .banner-box {
+        margin-top: 20px;
+    }
+
+    #banner3 .banner-box:nth-child(2),
+    #banner3 .banner-box:nth-child(3) {
+        background-position: 0;
+    }
+
+    .f-main {
+        flex-direction: column;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+
+    #close {
+        display: block;
+    }
+
+
+    /* contact css  */
+    #contact-detail {
+        flex-direction: column;
+    }
+
+    #contact-detail .details,
+    #contact-detail .map {
+        width: 100%;
+    }
+
+
+    .from-main {
+        flex-direction: column;
+    }
+
+    .formDiv {
+        width: 100%;
+    }
+
+    .contact-person-main {
+        width: 100%;
+    }
+
+    .contact-person {
+        justify-content: start;
+    }
+
+    #about-page {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .details h2 {
+        font-size: 23px;
+    }
+
+
+    /* cart page  */
+    #cart-add {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #coupon {
+        width: 100%;
+    }
+
+    #subtotal {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    #products .pro {
+        width: 100%;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 280px;
+    }
+
+    #banner3 .banner-box {
+        background-position: -136px -7px;
+    }
+
+    #banner3 .banner-box:nth-child(2) {
+        background-position: -229px 0px;
+    }
+
+    #banner3 .banner-box:nth-child(3) {
+        background-position: -317px 0px;
+    }
+
+    #features .fe-box {
+        width: 100%;
+    }
+
+
+    #header {
+        padding: 20px 15px;
+    }
+
+    .section-p1 {
+        padding: 25px 15px;
+    }
+
+    #hero {
+        padding: 0 15px;
+        background-image: none;
+        background-color: var(--bg-color);
+        height: 60vh;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 20px;
+    }
+
+    #hero h4 {
+        padding-bottom: 0;
+    }
+
+    #navbar {
+
+        width: 180px;
+    }
+
+
+
+    /* blog css */
+
+    #blog .blog-box {
+        flex-direction: column;
+    }
+
+    #blog {
+        padding: 15px;
+    }
+
+    #blog .blog-img {
+        margin-top: 60px;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #blog .blog-box h2 {
+        top: 22px;
+    }
+
+    #blog .blog-detail {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    /* about */
+    #about-app h1 {
+        line-height: 42px;
+    }
+
+
+    /* cart page */
+
+    #cart-add input{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .normal.apply-btn{
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width:320px) {}
